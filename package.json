@@ -1,0 +1,10 @@
+{
+  "name": "le-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "phonegap serve"
+  },
+  "devDependencies": {
+    "phonegap": "^5.0.0-0.28.1"
+  }
+}

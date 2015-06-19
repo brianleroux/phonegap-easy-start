@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset=utf-8>
+  <meta name=viewport 
+    content=user-scalable=no,initial-scale=,width=device-width,height=device-heightr,target-densitydpi=device-dpi>
+  </head>
+<body>
+  <h1>Hello World!</h1> 
+  <button>say hi</button>
+
+  <!-- cordova is required if you want to access device apis (you do) -->
+  <script src=cordova.js></script>
+
+  <!-- the primary device api is deviceready, fired when the cordova bridge is open for business -->
+  <script>
+
+  function ready() {
+    var btn = document.querySelector('button')
+
+    btn.addEventListener('touchstart', function() {
+      alert('hi')
+    })
+  }
+
+  // otherwise, you can do whatever you can do in a browser 
+  document.addEventListener('deviceready', ready, false)
+  </script>
+</body>
+</html>
