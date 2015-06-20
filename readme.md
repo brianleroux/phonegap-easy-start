@@ -17,7 +17,7 @@ from here you can make changes and the device will reload. how you want to build
 
 ## api access
 
-plugins you can use are defined in `config.xml` (docs for those and more can be found here)[http://docs.phonegap.com]
+plugins you can use are defined in `config.xml` (docs for those and more can be found here)[http://docs.phonegap.com/plugin-apis/]
 
 ### regrets
 
